@@ -1,0 +1,104 @@
+body{
+  margin: 0px;
+}
+
+/* #sidebar {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 500px;
+  object-fit: contain;
+  line-height: 20px;
+} */
+#main {
+  text-align: center;
+  padding-right: 30px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 0 rgb(47, 47, 47), 1px -1px 0 rgb(47, 47, 47), -1px 1px 0 rgb(47, 47, 47), 1px 1px 0 rgb(47, 47, 47);
+  /* box-sizing: border-box;  */
+
+}
+header {
+  color: rgb(255, 255, 255);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 0px;
+  padding: 20px 0px;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  background-size: 0px;
+  background-color: rgba(0, 0, 0, 0.488) ;
+  transition: 0.5s; 
+}
+header.sticky {
+  background-color: white;
+  padding: 10px;
+  color: black;
+  font-family: Roboto,Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  background-image: url(https://i.pinimg.com/originals/fe/ea/fb/feeafb23c614d5562345b39dfffa032f.gif);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 80px;
+}
+header.sticky:hover {
+  transition: 10s;
+  background-position: right;
+  cursor: crosshair;
+}
+.Head { 
+  padding: 10px;
+  /* box-sizing: border-box; */
+  margin-bottom: 15px;
+  color: white;
+}
+.module-1  {
+    /* height: 500px; */
+  margin: 30px 30px;
+  padding: 30px 0px;
+}
+.modules {
+  /* height: 1600px; */
+  /* padding: 80px; */
+  padding-top: 100px;
+}
+.background {
+  position: absolute;
+  display: inline;
+  z-index: -1;
+  width: 100%;
+  height: 1900px;
+}
+.module-1,
+.module-2,
+.module-3 {
+  display: grid;  
+  grid-template-columns: 1fr 1fr; 
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+  padding: 30px 30px;
+  background-color: rgba(144, 144, 255, 0.081);
+  max-height: 700px;
+}
+.Head-Body {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 18px;
+}
+#sidebar {
+  width: 100%;
+}
